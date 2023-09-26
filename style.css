@@ -37,6 +37,7 @@ html,
 .card-img {
     width: 70%;
     height: 17rem;
+    transition: 0.3s;
 }
 
 .info3 {
@@ -65,4 +66,27 @@ body {
     padding: 20px;
     text-align: center;
     font-size: larger;
+}
+
+.header :hover{
+    background-image: linear-gradient(#ECBEB4, #ecbeb4);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.3s;
+}
+
+#N1:hover {
+    background-color: #BBC2E2;
+}
+
+#N2:hover .card-img {
+    transform: translateY(-15px)
+}
+
+#N3:hover {
+    color: rgb(255,0,0);
+}
+
+#N4:hover {
+    background-color: #DEE5E5;
 }

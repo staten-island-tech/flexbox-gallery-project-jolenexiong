@@ -68,7 +68,7 @@ body {
 }
 
 .header {
-    background-image: linear-gradient(#B98389,#B98389);
+    background-image: linear-gradient(#FFA9A3,#FFA9A3);
     background-size: 0 100%;
     background-repeat: no-repeat;
     transition: .4s;
@@ -80,7 +80,7 @@ body {
 }
 
 #N1:hover {
-    background-color: #dde486;
+    background-color: #f8e383;
 }
 
 #N2:hover .card-img {

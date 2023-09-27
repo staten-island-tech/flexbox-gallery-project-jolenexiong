@@ -84,7 +84,7 @@ body {
 }
 
 #N2:hover .card-img {
-    transform: translateY(-15px)
+    transform: translateY(-35px)
 }
 
 #N3:hover {
@@ -92,7 +92,7 @@ body {
 }
 
 #N4:hover {
-    background-color: #a7dcdc;
+    background-color: #ffc3d7;
 }
 
 #N5:hover .card-img {

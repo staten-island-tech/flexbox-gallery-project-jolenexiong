@@ -27,6 +27,18 @@ html,
     transform: translateY(-15px);
 }
 
+@media screen and (max-width: 900px) {
+    .card {
+        width: 40%
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
 .cardtitle {
     font-size: 2rem;
     margin: 10px;
@@ -110,3 +122,8 @@ body {
 #N5:hover .card-img {
     transform: scale(1.5, 1.5);
 }
+
+
+
+
+    
